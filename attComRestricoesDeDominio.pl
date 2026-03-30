@@ -57,6 +57,7 @@ modelo(Lista) :-
     abs(JogoDaForca - TresOuMais) #= 1,
     Uva #= ProbDeLogica,
     Branca + 1 #= Will,
+    abs(Will - ProbDeLogica) #= 1,
     Azul #< Maio,
     Joao #= Historia,
     Joao #\= 1,
